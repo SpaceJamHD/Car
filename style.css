@@ -1,4 +1,4 @@
-/* @import url("https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap");
 
 :root {
   --main: #ff0000;
@@ -61,11 +61,11 @@ body {
 .content a:hover {
   letter-spacing: 2px;
   color: var(--main) !important;
-} */
+}
 
 /* Navbar setion Start */
 
-/* .navbar {
+.navbar {
   padding: 20px;
   display: flex;
   justify-content: space-between;
@@ -108,7 +108,7 @@ body {
   background-color: var(--main);
   width: 100px;
   border-radius: 5px;
-} */
+}
 
 /* Navbar setion End */
 
