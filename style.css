@@ -114,7 +114,7 @@ body {
 
 /* Header Section Start */
 
-/* .header {
+.header {
   padding: 100px;
 }
 
@@ -163,7 +163,7 @@ body {
   background: var(--black);
   z-index: 1;
   opacity: 0.1;
-} */
+}
 
 /* Header Section End */
 
