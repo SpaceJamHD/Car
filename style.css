@@ -359,3 +359,95 @@ body {
 }
 
 /* Car Parts Section End */
+
+/* Latest News Section Start */
+
+.latest_news {
+  margin-bottom: 200px;
+}
+
+.latest_news .box {
+  background: rgb(72, 68, 68);
+  padding: 20px;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 20px;
+  height: 400px;
+  margin-top: 50px;
+}
+
+.latest_news .box:hover {
+  background: var(--black);
+}
+
+.latest_news .boxcontent {
+  margin: 10px auto;
+  color: var(--white);
+}
+
+.latest_news .boxcontent h6 {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.latest_news .boxcontent p {
+  font-weight: bold;
+  font-size: 12px;
+}
+
+/* Latest News Section End */
+
+/* Testimonail Section Start */
+
+/* .testimonail {
+  margin-bottom: 200px;
+}
+
+.testimonail .box {
+  box-shadow: 10px 10px 10px -10px rgba(0, 0, 0, 0.5),
+    inset 10px 10px 10px -10px rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  background: #5c5353;
+  border-radius: 20px;
+  text-align: center;
+  border-top-left-radius: 20%;
+  border-bottom-right-radius: 20%;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+
+.testimonail .box:hover {
+  background: var(--black);
+  border-top-left-radius: 0%;
+  border-bottom-right-radius: 0%;
+  border-top-right-radius: 20%;
+  border-bottom-left-radius: 20%;
+}
+
+.testimonail .box img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.testimonail .box p {
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.testimonail .box .fas {
+  font-size: 30px;
+  color: var(--main);
+}
+
+.testimonail .box h6 {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.testimonail .mid {
+  margin-top: 100px;
+} */
+
+/* Testimonail Section End */
