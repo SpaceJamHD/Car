@@ -1,0 +1,47 @@
+/* CARS */
+
+.car_main_page nav {
+  background: rgb(51, 51, 51);
+}
+
+.car_main_section {
+  margin: 200px auto;
+}
+
+.car_main_section .box {
+  box-shadow: 10px 10px 10px 10px rgb(0, 0, 0, 0.5),
+    inset 10px 10px 10px 10px rgba(0, 0, 0, 0, 7);
+  padding: 20px;
+  margin-bottom: 60px;
+  text-align: center;
+  background: #5c5353;
+  color: var(--white) !important;
+  cursor: pointer;
+  border-radius: 15px;
+  height: 450px;
+  transition: 0.5s ease-in-out;
+}
+
+.car_main_section .box:hover {
+  background: var(--black);
+}
+
+.car_main_section .box h6 {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.car_main_section .box .fas {
+  font-size: 35px;
+  color: var(--main);
+}
+
+.car_main_section .box p {
+  font-weight: 500;
+  font-size: 12px;
+  margin: 10px auto;
+}
+
+.car_main_section .box .btn {
+  width: 200px;
+}
