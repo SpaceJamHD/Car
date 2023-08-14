@@ -1,0 +1,65 @@
+.buycar_page .navbar img {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+
+.buycar_page .navbar .btn {
+  margin-top: 30px;
+}
+
+.buy_car {
+  margin-top: 150px;
+}
+
+.buy_car .container .col-sm-7,
+.buy_car .col-sm-4 {
+  background: #6a6d6e;
+  min-height: 500px;
+}
+
+.buy_car .container h6 {
+  font-weight: bold;
+  margin: 10px auto;
+  font-size: 30px;
+  color: var(--white) !important;
+}
+
+.buy_car form {
+  color: var(--white) !important;
+}
+
+.buy_car input {
+  outline: none !important;
+  background: none !important;
+  color: var(--white) !important;
+}
+
+.buy_car input::placeholder {
+  color: var(--white) !important;
+}
+
+.buy_car .icon {
+  margin: 20px auto;
+}
+
+.buy_car .icon i {
+  font-size: 40px;
+  color: var(--main);
+  margin: 0px 10px;
+}
+
+.buy_car .icon i span {
+  font-weight: 600;
+  font-size: 45px;
+}
+
+.buy_car .col-sm-4 {
+  position: fixed;
+  right: 20px;
+}
+
+.buy_car .col-sm-4 img {
+  margin-top: 50px;
+  cursor: pointer;
+}
