@@ -1,0 +1,41 @@
+/* Contact Section Start */
+
+.contact_us_main_page {
+  margin: 160px auto;
+}
+
+.contact_us_main_page img {
+  margin-top: 50px;
+  cursor: pointer;
+}
+
+.contact_us_main_page .col-sm-6 h6 {
+  font-weight: bold;
+  text-align: center;
+  margin: 10px auto;
+  font-size: 30px;
+  color: var(--white) !important;
+}
+
+.contact_us_main_page .col-sm-5 form label {
+  color: var(--white) !important;
+  margin: 10px 0;
+}
+
+.contact_us_main_page .offsets-sm-2 form {
+  margin-top: 10px;
+}
+
+.contact_us_main_page .offsets-sm-2 form input,
+textarea {
+  background: none !important;
+  outline: none !important;
+  color: var(--white) !important;
+}
+
+.contact_us_main_page .offsets-sm-2 form input::placeholder,
+textarea::placeholder {
+  color: var(--white) !important;
+}
+
+/* Contact Section End */
