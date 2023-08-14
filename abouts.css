@@ -1,0 +1,37 @@
+/* About us PAge Start */
+
+.about_us_page {
+  color: var(--white) !important;
+  overflow: hidden;
+}
+
+.about_us_page .about_us_main_section {
+  margin: 160px auto;
+}
+
+.about_us_page .about_us_main_section img {
+  margin: 100px;
+  cursor: pointer;
+}
+
+.about_us_page .about_us_main_section h6 {
+  font-weight: bold;
+  font-size: 40px;
+  margin: 20px auto;
+}
+
+.about_us_page .about_us_main_section h6 span {
+  font-weight: 800;
+  font-size: 50px;
+  color: var(--main);
+}
+
+.about_us_page .about_us_main_section p {
+  font-size: 14px;
+}
+
+.about_us_page .about_us_main_section .btn {
+  width: 200px;
+}
+
+/* About us PAge End */
