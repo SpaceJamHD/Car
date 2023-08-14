@@ -63,6 +63,18 @@ body {
   color: var(--main) !important;
 }
 
+html::-webkit-scrollbar-thumb {
+  background: var(--main);
+}
+
+html::-webkit-scrollbar {
+  width: 10px;
+}
+
+html::-webkit-scrollbar-track {
+  background: rgb(82, 65, 65);
+}
+
 /* Navbar setion Start */
 
 .navbar {
@@ -451,3 +463,19 @@ body {
 }
 
 /* Testimonail Section End */
+
+/* Footer Section Start */
+
+footer {
+  background: var(--black);
+  padding: 40px;
+  text-align: center;
+}
+
+footer a {
+  font-weight: bold;
+  text-decoration: none !important;
+  color: var(--white) !important;
+}
+
+/* Footer Section End */
