@@ -5,6 +5,10 @@
   overflow: hidden;
 }
 
+.about_us_page nav {
+  background: rgb(51, 51, 51);
+}
+
 .about_us_page .about_us_main_section {
   margin: 160px auto;
 }
