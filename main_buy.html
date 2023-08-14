@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./main_buy.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Car Website</title>
+  </head>
+  <body class="buy_main_page">
+    <!-- ========================== NAVBAr Section Start ----------- -->
+
+    <nav class="navbar navbar-expand-sm fixed-top">
+      <a href="" class="navbar-brand"><span>C</span>ar Website</a>
+      <div>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="./index.html" class="nav-link active">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="./abouts.html" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="./contact.html" class="nav-link">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a href="./car.html" class="nav-link">Cars</a>
+          </li>
+        </ul>
+      </div>
+
+      <div>
+        <ul class="navbar-nav">
+          <li class="nav-item"><a href="" class="nav-link btn">Sell-</a></li>
+          <li class="nav-item"><a href="" class="nav-link btn">Buy+</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- ========================== NAVBAr Section End ----------- -->
+
+    <!-- ========================== Buy Main Section Start ----------- -->
+
+    <section>
+      <div class="container buy_main_header">
+        <div class="row">
+          <div class="col-sm-5">
+            <img src="./img/header.png" alt="" class="img-fluid" />
+          </div>
+          <div class="offset-sm-2 col-sm-5">
+            <p>#1 on Tranding</p>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <h6>The new car 2 Series Gran Turismo Sports</h6>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
+              hic at vero ab iste, quis nemo, corrupti, tempora minima velit
+              cum? Nobis, aut. Recusandae repudiandae mollitia exercitationem,
+              sequi veniam eligendi. <br /><br />
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. At
+              fugit, beatae perferendis illo deleniti doloremque a provident
+              neque quaerat ullam rerum veniam minima. Saepe doloribus ipsam
+              molestiae quisquam quasi veniam!
+            </p>
+            <button
+              class="btn"
+              data-bs-toggle="modal"
+              data-bs-target="#loginPopup"
+            >
+              Buy Now
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================== Buy Main Section End ----------- -->
+
+    <!-- POPUP SECTION START -->
+
+    <!-- Popup For Login Start -->
+
+    <div class="modal fade" id="loginPopup">
+      <div class="modal-dialog modal-dialog-centerred modal-lg">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="container">
+              <h3>Welcome Back : Good To See You</h3>
+              <div class="row">
+                <div class="col-sm-4">
+                  <img src="./img/header.png" alt="" class="img-fluid" />
+                </div>
+                <div class="offset-sm-2 col-sm-6">
+                  <button class="btn_custom">Sign up With google</button>
+                  <button class="btn_custom">Sign up With facebook</button>
+
+                  <span class="text-center">Or</span>
+                  <form>
+                    <div class="form-group">
+                      <label for="" class="font-weight-bold">Email</label>
+                      <input
+                        type="email"
+                        class="font-weight-bold form-control"
+                        placeholder="Enter Your Email"
+                      />
+                    </div>
+
+                    <div class="form-group">
+                      <label for="" class="font-weight-bold">Password</label>
+                      <input
+                        type="password"
+                        class="font-weight-bold form-control"
+                        placeholder="Enter Your Password"
+                      />
+                    </div>
+                    <buton
+                      type="button"
+                      data-bs-target="#createPopup"
+                      data-bs-toggle="modal"
+                      class="btn"
+                      >create Account</buton
+                    >
+                    <buton type="button" class="btn">Login</buton>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Popup For Login End -->
+
+    <!-- Popup For Create Account Start -->
+
+    <div class="modal fade" id="createPopup">
+      <div class="modal-dialog modal-dialog-centerred modal-lg">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="container">
+              <h3>join Car Website : For Premium To See You</h3>
+              <div class="row">
+                <div class="col-sm-4">
+                  <img src="./img/4.png" alt="" class="img-fluid" />
+                </div>
+                <div class="offset-sm-2 col-sm-6">
+                  <button class="btn_custom">Sign up With google</button>
+                  <button class="btn_custom">Sign up With facebook</button>
+
+                  <span class="text-center">Or</span>
+                  <form>
+                    <div class="form-group">
+                      <label for="" class="font-weight-bold">Full Name</label>
+                      <input
+                        type="text"
+                        class="font-weight-bold form-control"
+                        placeholder="Enter Your Name"
+                      />
+                    </div>
+
+                    <div class="form-group">
+                      <label for="" class="font-weight-bold">Email</label>
+                      <input
+                        type="email"
+                        class="font-weight-bold form-control"
+                        placeholder="Enter Your Email"
+                      />
+                    </div>
+
+                    <div class="form-group">
+                      <label for="" class="font-weight-bold">Password</label>
+                      <input
+                        type="password"
+                        class="font-weight-bold form-control"
+                        placeholder="Enter Your Password"
+                      />
+                    </div>
+
+                    <div class="form-group">
+                      <label for="" class="font-weight-bold"
+                        >Confirm Password</label
+                      >
+                      <input
+                        type="password"
+                        class="font-weight-bold form-control"
+                        placeholder="Enter Your Password"
+                      />
+                    </div>
+
+                    <buton type="button" class="btn">create Account</buton>
+                    <buton type="button" class="btn">Login</buton>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Popup For Create Account End -->
+
+    <!-- POPUP SECTION START -->
+
+    <!-- ========================== Footer Section Start ----------- -->
+
+    <footer>
+      <a href="">@EasyCoding</a>
+    </footer>
+
+    <!-- ========================== Footer Section End ----------- -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.8/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.slim.min.js"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>

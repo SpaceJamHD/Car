@@ -1,0 +1,107 @@
+.buy_main_page {
+  overflow: hidden;
+  color: var(--white);
+}
+
+.buy_main_header {
+  margin: 250px auto;
+}
+
+.buy_main_header img {
+  height: 350px;
+}
+
+.buy_main_header .offset-sm-2 p {
+  font-weight: 100;
+  color: #3498db;
+  font-size: 16px;
+}
+
+.buy_main_header .fas {
+  font-size: 30px;
+  margin: 5px auto;
+  color: var(--main);
+}
+
+.buy_main_header .offset-sm-2 h6 {
+  font-weight: bold;
+  font-size: 20px;
+  margin: 10px auto;
+}
+
+.buy_main_header .offset-sm- span {
+  margin: 5px auto;
+}
+
+.buy_main_header .btn {
+  width: 150px;
+  margin: 10px auto;
+}
+/* Model */
+
+.buy_main_page .modal-body {
+  background: linear-gradient(rgb(24, 22, 22), #6a6d6e);
+  color: #fff !important;
+}
+
+.buy_main_page .modal img {
+  margin-top: 30px;
+  height: 350px;
+}
+
+.buy_main_page .modal h3 {
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.buy_main_page #createPopup img {
+  margin-top: 100px;
+}
+
+.buy_main_page .modal .btn_custom {
+  border: 1px solid var(--main);
+  color: var(--main);
+  font-weight: 600;
+  padding: 8px 28px;
+  width: 350px;
+  margin: 10px auto;
+  border-radius: 10px;
+  cursor: pointer;
+  background: transparent;
+  transition: 0.5s;
+  margin-bottom: 40px;
+}
+
+.buy_main_page .modal .btn_custom:hover {
+  background: var(--main);
+  color: var(--white);
+  letter-spacing: 2px;
+}
+
+.buy_main_page .modal span {
+  display: flex;
+  justify-content: center;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.buy_main_page .modal form {
+  margin-top: 5px !important;
+}
+
+.buy_main_page .modal form input {
+  background: none !important;
+  color: var(--white) !important;
+}
+
+.buy_main_page .modal form input::placeholder {
+  color: var(--white) !important;
+}
+
+.buy_main_page .modal form .btn {
+  width: 155px;
+}
+
+.buy_main_page .modal form .btn:hover {
+  letter-spacing: 1px;
+}
